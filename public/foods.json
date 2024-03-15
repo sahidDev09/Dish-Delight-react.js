@@ -1,0 +1,101 @@
+[
+  {
+    "recipe_img": "https://i.ibb.co/ssmZ9Pr/11973-spaghetti-carbonara-mfs-042-21d5decdffde4a1faa94a21725ce9cc3.jpg",
+    "recipe_id": "001",
+    "recipe_name": "Spaghetti Carbonara",
+    "short_description": "Classic Italian pasta dish with creamy sauce",
+    "ingredients": [
+      "spaghetti",
+      "eggs",
+      "bacon",
+      "parmesan cheese",
+      "black pepper"
+    ],
+    "preparing_time": "30",
+    "Calories": "450 calories"
+  },
+  {
+    "recipe_img": "https://i.ibb.co/RzPb0n2/ai-generated-8504384-1920.png",
+    "recipe_id": "002",
+    "recipe_name": "Chicken Alfredo",
+    "short_description": "Creamy chicken pasta with garlic and parmesan",
+    "ingredients": [
+      "chicken breast",
+      "fettuccinepasta",
+      "butter",
+      "cream",
+      "garlic",
+      "parmesan cheese"
+    ],
+    "preparing_time": "35",
+    "Calories": "550 calories"
+  },
+  {
+    "recipe_img": "https://i.ibb.co/SBgnQmv/Beef-and-Vegetable-Stir-Fry-16.jpg",
+    "recipe_id": "003",
+    "recipe_name": "Vegetable Stir-Fry",
+    "short_description": "Colorful and healthy stir-fry with fresh veggies",
+    "ingredients": [
+      "bell peppers",
+      "broccoli",
+      "carrots",
+      "snap peas",
+      "tofu",
+      "soy sauce",
+      "ginger"
+    ],
+    "preparing_time": "25",
+    "Calories": "300 calories"
+  },
+  {
+    "recipe_img": "https://i.ibb.co/80MXw3n/beef-tacos-98153-1.jpg",
+    "recipe_id": "004",
+    "recipe_name": "Beef Tacos",
+    "short_description": "Savory beef tacos with fresh salsa and guacamole",
+    "ingredients": [
+      "ground beef",
+      "taco shells",
+      "tomatoes",
+      "onion",
+      "lettuce",
+      "avocado",
+      "lime"
+    ],
+    "preparing_time": "40",
+    "Calories": "400 calories"
+  },
+  {
+    "recipe_img": "https://i.ibb.co/7bSqDJX/51806690339-f92655219a-h-jpg-ezgif-com-webp-to-jpg-converter.jpg",
+    "recipe_id": "005",
+    "recipe_name": "Mushroom Risotto",
+    "short_description": "Creamy Italian rice dish with mushrooms and parmesan",
+    "ingredients": [
+      "arborio rice",
+      "mushrooms",
+      "onion",
+      "garlic",
+      "vegetable broth",
+      "white wine",
+      "butter"
+    ],
+    "preparing_time": "45",
+    "Calories": "500 calories"
+  },
+  {
+    "recipe_img": "https://i.ibb.co/FHRJyXM/Best-Grilled-Salmon-9331-2.jpg",
+    "recipe_id": "006",
+    "recipe_name": "Grilled Salmon",
+    "short_description": "Healthy grilled salmon fillets with lemon and herbs",
+    "ingredients": [
+      "salmon fillets",
+      "lemon",
+      "olive oil",
+      "garlic",
+      "dill",
+      "salt",
+      "black pepper"
+    ],
+    "preparing_time": "20",
+    "Calories": "350 calories"
+  }
+]
