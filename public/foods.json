@@ -1,7 +1,7 @@
 [
   {
     "recipe_img": "https://i.ibb.co/ssmZ9Pr/11973-spaghetti-carbonara-mfs-042-21d5decdffde4a1faa94a21725ce9cc3.jpg",
-    "recipe_id": "001",
+    "id": 1,
     "recipe_name": "Spaghetti Carbonara",
     "short_description": "Classic Italian pasta dish with creamy sauce",
     "ingredients": [
@@ -16,7 +16,7 @@
   },
   {
     "recipe_img": "https://i.ibb.co/RzPb0n2/ai-generated-8504384-1920.png",
-    "recipe_id": "002",
+    "id": 2,
     "recipe_name": "Chicken Alfredo",
     "short_description": "Creamy chicken pasta with garlic and parmesan",
     "ingredients": [
@@ -32,7 +32,7 @@
   },
   {
     "recipe_img": "https://i.ibb.co/SBgnQmv/Beef-and-Vegetable-Stir-Fry-16.jpg",
-    "recipe_id": "003",
+    "id": 3,
     "recipe_name": "Vegetable Stir-Fry",
     "short_description": "Colorful and healthy stir-fry with fresh veggies",
     "ingredients": [
@@ -49,7 +49,7 @@
   },
   {
     "recipe_img": "https://i.ibb.co/80MXw3n/beef-tacos-98153-1.jpg",
-    "recipe_id": "004",
+    "id": 4,
     "recipe_name": "Beef Tacos",
     "short_description": "Savory beef tacos with fresh salsa and guacamole",
     "ingredients": [
@@ -66,7 +66,7 @@
   },
   {
     "recipe_img": "https://i.ibb.co/7bSqDJX/51806690339-f92655219a-h-jpg-ezgif-com-webp-to-jpg-converter.jpg",
-    "recipe_id": "005",
+    "id": 5,
     "recipe_name": "Mushroom Risotto",
     "short_description": "Creamy Italian rice dish with mushrooms and parmesan",
     "ingredients": [
@@ -83,7 +83,7 @@
   },
   {
     "recipe_img": "https://i.ibb.co/FHRJyXM/Best-Grilled-Salmon-9331-2.jpg",
-    "recipe_id": "006",
+    "id": 6,
     "recipe_name": "Grilled Salmon",
     "short_description": "Healthy grilled salmon fillets with lemon and herbs",
     "ingredients": [

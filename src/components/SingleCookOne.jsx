@@ -1,10 +1,10 @@
 /* eslint-disable react/prop-types */
 
 const SingleCookOne = ({ cooked, index, handlePreparing }) => {
-  const { recipe_name, preparing_time, Calories } = cooked;
+  const { id, recipe_name, preparing_time, Calories } = cooked;
 
   const preparingHandler = () => {
-    handlePreparing(cooked);
+    handlePreparing(cooked, id);
   };
 
   return (

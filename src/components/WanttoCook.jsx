@@ -5,18 +5,24 @@ import { IoTimerOutline } from "react-icons/io5";
 import { FaFireAlt } from "react-icons/fa";
 
 /* eslint-disable react/prop-types */
-const WanttoCook = ({ cooked }) => {
+const WanttoCook = ({ cooked, setCooked }) => {
   const [preparing, setPreparing] = useState([]);
+
   let [calories, setCalories] = useState(0);
   let [time, setTime] = useState(0);
 
-  const handlePreparing = (prep) => {
+  const handlePreparing = (prep, id) => {
     setPreparing([...preparing, prep]);
     const newTime = (time += prep.preparing_time);
     setTime(newTime);
 
     const newCalories = (calories += prep.Calories);
     setCalories(newCalories);
+
+    // remove table data from want to cook
+
+    const newCookData = cooked.filter((item) => item.id != id);
+    setCooked(newCookData);
   };
 
   return (
@@ -42,7 +48,7 @@ const WanttoCook = ({ cooked }) => {
             key={index}
             cooked={ck}
             index={index + 1}
-            handlePreparing={() => handlePreparing(ck)} // Pass only the clicked recipe
+            handlePreparing={() => handlePreparing(ck, ck.id)} // Pass only the clicked recipe
           ></SingleCookOne>
         ))}
       </div>

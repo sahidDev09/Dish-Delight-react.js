@@ -14,12 +14,15 @@ function App() {
   const [cooked, setCooked] = useState([]);
   const [preparing, setPreparing] = useState([]);
 
-  const handlePreparing = (prep) => {
-    setPreparing([...preparing, prep]); // Add only the clicked recipe
+  const handlePreparing = (prep,id) => {
+    setPreparing([...preparing, prep]);
+
+    console.log(id)
+
   };
 
   const handleCookbtn = (cook) => {
-    const isExist = cooked.find((food) => food.recipe_id == cook.recipe_id);
+    const isExist = cooked.find((food) => food.id == cook.id);
 
     if (!isExist) {
       const newCooked = [...cooked, cook];
@@ -38,7 +41,10 @@ function App() {
       <div className=" md:flex justify-between mt-10 gap-5">
         <FoodCards handleCookbtn={handleCookbtn}></FoodCards>
 
-        <WanttoCook cooked={cooked} handlePreparing={handlePreparing}></WanttoCook>
+        <WanttoCook
+          cooked={cooked}
+          setCooked ={setCooked}
+          handlePreparing={handlePreparing}></WanttoCook>
       </div>
     </div>
   );

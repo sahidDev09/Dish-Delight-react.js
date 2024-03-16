@@ -1,6 +1,5 @@
 /* eslint-disable react/prop-types */
 const CurrentCook = ({ preparing, index }) => {
-  console.log(preparing);
   const { recipe_name, preparing_time, Calories } = preparing;
 
   return (
@@ -18,7 +17,7 @@ const CurrentCook = ({ preparing, index }) => {
           Calories
         </td>
       </tr>
-      <hr className=" border-4 border-gray-50" />
+      <hr className=" border-2 border-gray-50" />
     </>
   );
 };
