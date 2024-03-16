@@ -38,31 +38,32 @@ const WanttoCook = ({ cooked }) => {
         ))}
       </div>
 
-      <div>
+      <div className=" p-4">
         <h1 className="text-2xl font-bold text-center mt-2">
           Currently cooking :{preparing.length}
         </h1>
         <hr className=" my-5" />
-        <table className=" table">
-          <thead className="">
-            <tr>
-              <th></th>
-              <th className="p-0 pr-5">Name</th>
-              <th>Time</th>
-              <th>Calories</th>
-              <th></th>
-            </tr>
-          </thead>
-          {/* Added tbody tag */}
-          <tbody>
-            {preparing.map((prep, index) => (
-              <CurrentCook
-                key={index}
-                preparing={prep}
-                index={index + 1}></CurrentCook>
-            ))}
-          </tbody>
-        </table>
+        <div className="overflow-x-auto">
+          <table className="table">
+            {/* head */}
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Time</th>
+                <th>Calories</th>
+              </tr>
+            </thead>
+            <tbody className="gap-5">
+              {preparing.map((prep, index) => (
+                <CurrentCook
+                  key={index}
+                  preparing={prep}
+                  index={index + 1}></CurrentCook>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );
