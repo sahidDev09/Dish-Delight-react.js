@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <div>
       <div className="md:flex justify-between items-center my-5 text-center">
-        <h1 className=" text-3xl font-extrabold">
-          <a href="">DishDelight</a>
+      <h1 className=" text-4xl text-center font-bold flex">
+          <span className=" text-red-400">Dish</span>Delight
         </h1>
         <div className="menu-container flex items-center gap-10 text-lg  justify-center my-4 md:my-0">
           <a href="">Home</a>
@@ -13,7 +13,7 @@ const Navbar = () => {
           <a href="">About</a>
           <a href="">Search</a>
         </div>
-        <div className=" flex gap-5 justify-center">
+        <div className="gap-5 justify-center hidden md:inline-flex">
           <div className=" flex items-center gap-4 bg-gray-200 p-[12px] rounded-full">
             <IoIosSearch className=" text-xl" />
             <input

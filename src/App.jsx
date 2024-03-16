@@ -7,6 +7,7 @@ import OurRecipe from "./components/OurRecipe";
 import WanttoCook from "./components/WanttoCook";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Footer from "./components/Footer";
 
 // fuction for want to cook btn
 
@@ -33,6 +34,7 @@ function App() {
   };
 
   return (
+    <>
     <div className=" container mx-auto">
       <ToastContainer></ToastContainer>
       <Navbar></Navbar>
@@ -47,6 +49,8 @@ function App() {
           handlePreparing={handlePreparing}></WanttoCook>
       </div>
     </div>
+    <Footer></Footer>
+    </>
   );
 }
 

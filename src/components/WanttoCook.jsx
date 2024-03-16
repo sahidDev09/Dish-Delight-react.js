@@ -81,7 +81,7 @@ const WanttoCook = ({ cooked, setCooked }) => {
         </div>
       </div>
 
-      <div className="px-4 flex gap-2 items-center text-xl font-bold">
+      <div className="px-4 flex gap-2 items-center text-lg font-bold">
         <h1>Total Time = </h1>
         <div className="time flex items-center gap-2 text-green-600">
           <IoTimerOutline></IoTimerOutline>
@@ -89,7 +89,7 @@ const WanttoCook = ({ cooked, setCooked }) => {
         </div>
       </div>
 
-      <div className="px-4 flex gap-2 items-center text-xl font-bold">
+      <div className="px-4 flex gap-2 items-center text-lg font-bold">
         <h1>Total Calories = </h1>
         <div className="time flex items-center gap-2 text-red-400">
           <FaFireAlt></FaFireAlt>

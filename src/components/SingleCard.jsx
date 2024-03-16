@@ -17,7 +17,7 @@ const SingleCard = ({ cardData, handleCookbtn }) => {
     <div className=" border border-gray-300 p-5 rounded-md mb-5 md:mb-0 flex flex-col justify-between items-start">
       <div>
         <img
-          className="w-full h-[200px] object-cover rounded-md mb-4"
+          className="w-[100%] h-[200px] object-cover rounded-md mb-4"
           src={recipe_img}
           alt=""
         />
