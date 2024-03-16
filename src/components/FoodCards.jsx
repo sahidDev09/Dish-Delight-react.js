@@ -14,10 +14,7 @@ const FoodCards = ({ handleCookbtn }) => {
   return (
     <div className="md:w-3/5 md:grid grid-cols-2 gap-5 mb-9">
       {cards.map((card, index) => (
-        <SingleCard
-          key={index}
-          cardData={card}
-          handleCookbtn={handleCookbtn}></SingleCard>
+        <SingleCard key={index} cardData={card} handleCookbtn={handleCookbtn} />
       ))}
     </div>
   );

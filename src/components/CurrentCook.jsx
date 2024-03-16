@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 const CurrentCook = ({ preparing, index }) => {
   const { recipe_name, preparing_time, Calories } = preparing;
 

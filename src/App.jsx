@@ -9,47 +9,32 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Footer from "./components/Footer";
 
-// fuction for want to cook btn
-
 function App() {
   const [cooked, setCooked] = useState([]);
-  const [preparing, setPreparing] = useState([]);
-
-  const handlePreparing = (prep,id) => {
-    setPreparing([...preparing, prep]);
-
-    console.log(id)
-
-  };
 
   const handleCookbtn = (cook) => {
-    const isExist = cooked.find((food) => food.id == cook.id);
+    const isExist = cooked.find((food) => food.id === cook.id);
 
     if (!isExist) {
-      const newCooked = [...cooked, cook];
-      setCooked(newCooked);
+      setCooked([...cooked, cook]);
     } else {
-      toast.warning("Already added");
+      toast.warning("Alredy added in cooking...");
     }
   };
 
   return (
     <>
-    <div className=" container mx-auto">
-      <ToastContainer></ToastContainer>
-      <Navbar></Navbar>
-      <Hero></Hero>
-      <OurRecipe></OurRecipe>
-      <div className=" md:flex justify-between mt-10 gap-5">
-        <FoodCards handleCookbtn={handleCookbtn}></FoodCards>
-
-        <WanttoCook
-          cooked={cooked}
-          setCooked ={setCooked}
-          handlePreparing={handlePreparing}></WanttoCook>
+      <div className="container mx-auto">
+        <ToastContainer />
+        <Navbar />
+        <Hero />
+        <OurRecipe />
+        <div className="md:flex justify-between mt-10 gap-5">
+          <FoodCards handleCookbtn={handleCookbtn} />
+          <WanttoCook cooked={cooked} setCooked={setCooked} />
+        </div>
       </div>
-    </div>
-    <Footer></Footer>
+      <Footer />
     </>
   );
 }
