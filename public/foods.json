@@ -11,8 +11,8 @@
       "50g parmesan cheese",
       "10g black pepper"
     ],
-    "preparing_time": "30",
-    "Calories": "450"
+    "preparing_time": 30,
+    "Calories": 450
   },
   {
     "recipe_img": "https://i.ibb.co/RzPb0n2/ai-generated-8504384-1920.png",
@@ -27,8 +27,8 @@
       "75g garlic",
       "50g parmesan cheese"
     ],
-    "preparing_time": "35",
-    "Calories": "550"
+    "preparing_time": 35,
+    "Calories": 560
   },
   {
     "recipe_img": "https://i.ibb.co/SBgnQmv/Beef-and-Vegetable-Stir-Fry-16.jpg",
@@ -44,8 +44,8 @@
       "50g soy sauce",
       "65g ginger"
     ],
-    "preparing_time": "25",
-    "Calories": "300"
+    "preparing_time": 25,
+    "Calories": 300
   },
   {
     "recipe_img": "https://i.ibb.co/80MXw3n/beef-tacos-98153-1.jpg",
@@ -61,8 +61,8 @@
       "300g avocado",
       "3 lime"
     ],
-    "preparing_time": "40",
-    "Calories": "400"
+    "preparing_time": 40,
+    "Calories": 400
   },
   {
     "recipe_img": "https://i.ibb.co/7bSqDJX/51806690339-f92655219a-h-jpg-ezgif-com-webp-to-jpg-converter.jpg",
@@ -78,8 +78,8 @@
       "200ml white wine",
       "100g butter"
     ],
-    "preparing_time": "45",
-    "Calories": "500"
+    "preparing_time": 45,
+    "Calories": 500
   },
   {
     "recipe_img": "https://i.ibb.co/FHRJyXM/Best-Grilled-Salmon-9331-2.jpg",
@@ -95,7 +95,7 @@
       "10g salt",
       "10g black pepper"
     ],
-    "preparing_time": "20",
-    "Calories": "350"
+    "preparing_time": 20,
+    "Calories": 350
   }
 ]
