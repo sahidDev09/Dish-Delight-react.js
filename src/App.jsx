@@ -15,7 +15,7 @@ function App() {
   const [preparing, setPreparing] = useState([]);
 
   const handlePreparing = (prep) => {
-    console.log(prep);
+    setPreparing([...preparing, prep]); // Add only the clicked recipe
   };
 
   const handleCookbtn = (cook) => {
@@ -37,9 +37,8 @@ function App() {
       <OurRecipe></OurRecipe>
       <div className=" md:flex justify-between mt-10 gap-5">
         <FoodCards handleCookbtn={handleCookbtn}></FoodCards>
-        <WanttoCook
-          cooked={cooked}
-          handlePreparing={handlePreparing}></WanttoCook>
+
+        <WanttoCook cooked={cooked} handlePreparing={handlePreparing}></WanttoCook>
       </div>
     </div>
   );
